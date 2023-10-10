@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head><style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+            margin-left: 20%;
+            margin-right: 20%;
+            
+        } 
+        h2 {
+            text-align: center;
+            color:black;
+        } 
+    
+         
+        footer{
+            text-align: center;
+    
+        }
+        body{
+            font-family: sans-serif;
+            background:  black;
+            color: white;
+            transition: 1s ease-in-out;
+            
+        }
+         button{
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            outline: none;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition:0.1s;
+            text-align: center;
+            margin-left: 70%;
+         }
+         button:hover{
+            background:black;
+         }
+         .light-mode{
+            background: white;
+            color: black;
+         }
+
+    </style>
+        <title>Table assignment</title>
+    </head>
+    <body>
+        <header> 
+            <img src="logo.png" alt="">
+            <div>
+            <button onclick="myfunction()">Change Mode</button>
+            </div>
+            <script type="text/javascript">
+                function myfunction(){
+                    var element = document.body;
+                    element.classList.toggle('light-mode');
+                }
+            </script>
+
+
+
+
+        </header>
+        <main>
+            <h2>Time Table - Abdul Sattar Skill Development program - Peshawar</h2>
+        
+                 <table class="center">
+z                        <tr>
+                           
+                            <th></th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Satuarday</th>
+                            <th>Sunday</th>
+                        </tr>
+                     <tr>
+                        <td>CCNA (Cisco Certified Network Associate)</td>
+                        <td>06:00 PM to 08:00 PM</td>
+                        <td>06:00 PM to 08:00 PM</td>
+                        <td>06:00 PM to 08:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                                          <tr>
+                        <td>Graphic Designing</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>02:00 PM to 04:00 PM</td>
+                        <td>02:00 PM to 04:00 PM</td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                                          <tr>
+                        <td>IT Essential</td>
+                        <td>03:00 PM to 05:00 PM</td>
+                        <td>03:00 PM to 05:00 PM</td>
+                        <td>03:00 PM to 05:00 PM</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+
+                                          <tr>
+                        <td>Web & Mobile Application Development</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>     (Section D)
+                             06:00 PM to 08:00 PM</td>
+                        <td>(Section D) 06:00 PM to 08:00 PM</td>
+                        <td>(Section A) 09:00 AM to 11:00 AM (Section B) 11:00 AM to 01:00 PM(Section C)06:00 PM to 08:00 PM </td>
+                        <td>(Section A) 09:00 AM to 11:00 AM (Section B) 11:00 AM to 01:00 PM(Section C)06:00 PM to 08:00 PM </td>
+                        
+                     </tr>
+
+                                          <tr>
+                        <td>Vedio Editing</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>  
+                        <td>04:00 PM to 06:00 PM</td>
+                        <td>04:00 PM to 06:00 PM</td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+
+
+                    </table>
+                            
+        </main>
+        <footer>
+                <P>&copy; 2022. All Rights Reserved.</P>
+        </footer>
+    </body>
+</html>
